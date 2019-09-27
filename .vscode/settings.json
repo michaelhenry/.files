@@ -15,5 +15,10 @@
   "python.venvFolders": [
     "venv"
   ],
-  "python.envFile": "${workspaceFolder}/.env"
+  "python.envFile": "${workspaceFolder}/.env",
+   "files.exclude": {
+    "*.pyc": true,
+    "**/__pycache__": true,
+    "**/.vscode": true
+  }
 }
